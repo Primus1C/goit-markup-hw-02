@@ -1,3 +1,70 @@
-.root{
-    
+.root {
+--color-title: #2E2F42; /* NAVY BLUE */
+--color-text: #434455;  /* SLATE*/
+--color-corporative: #4D5AE5;
+--color-footer: #E7E9FC; /* CORNFLOWER */
+}
+
+.body {
+    background-color: #c4dbf1;
+}
+
+.header-link {
+    font-family: 'roboto';
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: #2E2F42;
+}
+
+.header-address {
+    font-family: 'roboto';
+    font-weight: 500;
+    font-size: 16px;
+    color: #434455;
+}
+
+.hero {
+    font-family: 'roboto';
+    font-size: 56px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.button {
+    font-family: 'roboto';
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: var(--color-corporative);
+    border-radius: 4px;
+}
+
+.title {
+    font-family: 'roboto';
+    font-weight: 700;
+    font-size: 36px;
+    color: var(--color-title);
+    text-transform: capitalize;
+}
+
+.subtitle {
+    font-family: 'roboto';
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--color-title);
+}
+
+.regular-text {
+    font-family: 'roboto';
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--color-text);    
+}
+
+.footer-text {
+    font-family: 'roboto';
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--color-footer);
 }
