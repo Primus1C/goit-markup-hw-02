@@ -1,7 +1,7 @@
 .root {
 --color-title: #2E2F42; /* NAVY BLUE */
 --color-text: #434455;  /* SLATE*/
---color-corporative: #4D5AE5;
+--color-corporative: #4D5AE5; /* IRIS */
 --color-footer: #E7E9FC; /* CORNFLOWER */
 }
 
@@ -14,14 +14,14 @@
     text-decoration: none;
     font-weight: 500;
     font-size: 16px;
-    color: #2E2F42;
+    color: var(--color-title);
 }
 
 .header-address {
     font-family: 'roboto';
-    font-weight: 500;
+    font-weight: 400;
     font-size: 16px;
-    color: #434455;
+    color: var(--color-text);
 }
 
 .hero {
@@ -60,6 +60,10 @@
     font-weight: 400;
     font-size: 16px;
     color: var(--color-text);    
+}
+
+.list{
+    list-style-type:none;
 }
 
 .footer-text {
