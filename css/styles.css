@@ -1,8 +1,9 @@
 :root {
-    --color-title: #2E2F42;         /* NAVY BLUE */
+    --color-dark: #2E2F42;         /* NAVY BLUE */
     --color-text: #434455;          /* SLATE*/
-    --color-corporative: #4D5AE5;   /* IRIS */
-    --color-footer: #E7E9FC;        /* CORNFLOWER */
+    --color-primary-brand: #4D5AE5;       /* IRIS */
+    --color-accent: #E7E9FC;        /* CORNFLOWER */
+    --color-light: #F4F4FD;
     --color-inverted: #FFFFFF;
 }
 
@@ -10,7 +11,7 @@ body {
     font-family: 'roboto';
 }
 
-ul{
+.list {
     list-style-type: none;
 }
 
@@ -19,7 +20,12 @@ ul{
     font-weight: 500;
     line-height: 1.5;
     text-decoration: none;
-    color: var(--color-title);
+    color: var(--color-dark);
+}
+
+.header-link:hover, 
+.header-link:focus {
+    color: var(--color-text);
 }
 
 .header-address {
@@ -31,8 +37,13 @@ ul{
     color: var(--color-text);
 }
 
+/*.header-address:hover,
+.header-address:focus {
+    color: var(--color-text);
+}*/
+
 .hero{
-    background-color: var(--color-title);
+    background-color: var(--color-dark);
 }
 
 .hero-title {
@@ -46,16 +57,24 @@ ul{
     font-weight: 500;
     font-size: 16px;
     color: var(--color-inverted);
-    background: var(--color-corporative);
+    background: var(--color-primary-brand);
     border-radius: 4px;
     cursor: pointer;
+}
+
+.team{
+    background-color: var(--color-light);
+}
+
+.image-with-bachground{
+    background: var(--color-accent);
 }
 
 .title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.1;
-    color: var(--color-title);
+    color: var(--color-dark);
     text-transform: capitalize;
 }
 
@@ -63,7 +82,7 @@ ul{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    color: var(--color-title);
+    color: var(--color-dark);
 }
 
 .regular-text {
@@ -73,8 +92,12 @@ ul{
     color: var(--color-text);    
 }
 
+.footer {
+    background-color: var(--color-dark);
+}
+
 .footer-text {
     font-weight: 400;
     font-size: 16px;
-    color: var(--color-footer);
+    color: var(--color-accent);
 }
