@@ -1,47 +1,50 @@
-.root {
---color-title: #2E2F42; /* NAVY BLUE */
---color-text: #434455;  /* SLATE*/
---color-corporative: #4D5AE5; /* IRIS */
---color-footer: #E7E9FC; /* CORNFLOWER */
+:root {
+    --color-title: #2E2F42;         /* NAVY BLUE */
+    --color-text: #434455;          /* SLATE*/
+    --color-corporative: #4D5AE5;   /* IRIS */
+    --color-footer: #E7E9FC;        /* CORNFLOWER */
+    --color-inverted: #FFFFFF;
 }
 
-.body {
+body {
+    font-family: 'roboto';
     background-color: #c4dbf1;
 }
 
+ul{
+    list-style-type: none;
+}
+
 .header-link {
-    font-family: 'roboto';
-    text-decoration: none;
-    font-weight: 500;
     font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
     color: var(--color-title);
 }
 
 .header-address {
-    font-family: 'roboto';
-    font-weight: 400;
     font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
     color: var(--color-text);
 }
 
 .hero {
-    font-family: 'roboto';
     font-size: 56px;
     font-weight: 700;
-    color: #FFFFFF;
+    line-height: 1.1;
+    color: var(--color-inverted);
 }
 
 .button {
-    font-family: 'roboto';
     font-weight: 500;
     font-size: 16px;
-    color: #FFFFFF;
-    background-color: var(--color-corporative);
+    color: var(--color-inverted);
+    background: var(--color-corporative);
     border-radius: 4px;
 }
 
 .title {
-    font-family: 'roboto';
     font-weight: 700;
     font-size: 36px;
     color: var(--color-title);
@@ -49,25 +52,19 @@
 }
 
 .subtitle {
-    font-family: 'roboto';
     font-weight: 500;
     font-size: 20px;
     color: var(--color-title);
 }
 
 .regular-text {
-    font-family: 'roboto';
-    font-weight: 400;
     font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
     color: var(--color-text);    
 }
 
-.list{
-    list-style-type:none;
-}
-
 .footer-text {
-    font-family: 'roboto';
     font-weight: 400;
     font-size: 16px;
     color: var(--color-footer);
