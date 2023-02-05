@@ -24,8 +24,7 @@ body {
     font-weight: 800;
     line-height: 1.3;
     text-transform:uppercase;
-    text-decoration: none;
-    
+    text-decoration: none;    
 }
 
 .logo-link-dark {
@@ -36,36 +35,35 @@ body {
     color: var(--color-light);
 }
 
-.list > li {
+.list li {
     list-style-type: none;
 }
 
+.back-light > li {
+    background-color: var(--color-inverted);
+}
+
 .header-link {
-    /*font-size: 16px;*/
     font-weight: 500;
-    /*line-height: 1.5;*/
     text-decoration: none;
     color: var(--color-dark);
 }
 
 .header-link:hover, 
 .header-link:focus {
-    color: var(--color-text);
+    color: var(--pressed-state);
 }
 
 .header-address {
-    /*font-size: 16px;*/
-    /*font-weight: 400;*/
-    /*line-height: 1.5;*/
     font-style: normal;
     text-decoration: none;
-    /*color: var(--color-text);*/
+    color: var(--color-text);
 }
 
-/*.header-address:hover,
+.header-address:hover,
 .header-address:focus {
-    color: var(--color-text);
-}*/
+    color: var(--pressed-state);
+}
 
 .hero{
     background-color: var(--color-dark);
@@ -79,9 +77,7 @@ body {
 }
 
 .button {
-    /*font-size: 16px;*/
     font-weight: 500;
-    /*line-height: 1.5;*/
     color: var(--color-inverted);
     background: var(--color-primary-brand);
     border-radius: 4px;
@@ -117,13 +113,16 @@ body {
     color: var(--color-dark);
 }
 
+.subtitle-portfolio {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
 .footer {
     background-color: var(--color-dark);
 }
 
 .footer-text {
-    /*font-weight: 400;*/
-    /*font-size: 16px;*/
-    /*line-height: 1.5;*/
     color: var(--color-accent);
 }
