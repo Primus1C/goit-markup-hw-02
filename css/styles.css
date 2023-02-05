@@ -1,24 +1,49 @@
 :root {
-    --color-dark: #2E2F42;         /* NAVY BLUE */
+    --color-dark: #2E2F42;          /* NAVY BLUE */
     --color-text: #434455;          /* SLATE*/
-    --color-primary-brand: #4D5AE5;       /* IRIS */
+    --color-primary-brand: #4D5AE5; /* IRIS */
+    --pressed-state: #404BBF;       /* OCEAN */
     --color-accent: #E7E9FC;        /* CORNFLOWER */
     --color-light: #F4F4FD;
     --color-inverted: #FFFFFF;
 }
 
 body {
-    font-family: 'roboto';
+    font-family: 'roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--color-text);
 }
 
-.list {
+.logo {
+    color: var(--color-primary-brand);
+}
+
+.logo-link{
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.3;
+    text-transform:uppercase;
+    text-decoration: none;
+    
+}
+
+.logo-link-dark {
+    color: var(--color-dark);
+}
+
+.logo-link-light {
+    color: var(--color-light);
+}
+
+.list > li {
     list-style-type: none;
 }
 
 .header-link {
-    font-size: 16px;
+    /*font-size: 16px;*/
     font-weight: 500;
-    line-height: 1.5;
+    /*line-height: 1.5;*/
     text-decoration: none;
     color: var(--color-dark);
 }
@@ -29,12 +54,12 @@ body {
 }
 
 .header-address {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
+    /*font-size: 16px;*/
+    /*font-weight: 400;*/
+    /*line-height: 1.5;*/
     font-style: normal;
     text-decoration: none;
-    color: var(--color-text);
+    /*color: var(--color-text);*/
 }
 
 /*.header-address:hover,
@@ -54,12 +79,19 @@ body {
 }
 
 .button {
+    /*font-size: 16px;*/
     font-weight: 500;
-    font-size: 16px;
+    /*line-height: 1.5;*/
     color: var(--color-inverted);
     background: var(--color-primary-brand);
     border-radius: 4px;
     cursor: pointer;
+    width: 169px;
+}
+
+.button:hover,
+.button:focus {
+    background: var(--pressed-state)
 }
 
 .team{
@@ -85,19 +117,13 @@ body {
     color: var(--color-dark);
 }
 
-.regular-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    color: var(--color-text);    
-}
-
 .footer {
     background-color: var(--color-dark);
 }
 
 .footer-text {
-    font-weight: 400;
-    font-size: 16px;
+    /*font-weight: 400;*/
+    /*font-size: 16px;*/
+    /*line-height: 1.5;*/
     color: var(--color-accent);
 }
