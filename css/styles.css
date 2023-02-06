@@ -39,10 +39,6 @@ body {
     list-style-type: none;
 }
 
-/*.back-light > li {
-    background-color: var(--color-inverted);
-}*/
-
 .header-link {
     font-weight: 500;
     line-height: 1.5;
