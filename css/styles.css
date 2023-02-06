@@ -90,6 +90,20 @@ body {
     background: var(--pressed-state)
 }
 
+.button-filter {
+    font-weight: 500;
+    color: var(--color-primary-brand);
+    background: var(--color-accent);
+    border: 1px;
+    border-radius: 4px;
+}
+
+.button-filter:hover,
+.button-filter:focus {
+    color: var(--color-inverted);
+    background: var(--pressed-state);
+}
+
 .team{
     background-color: var(--color-light);
 }
