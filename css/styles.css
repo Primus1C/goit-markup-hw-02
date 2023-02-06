@@ -76,6 +76,10 @@ body {
     color: var(--color-inverted);
 }
 
+.hidden-title {
+    display: none
+}
+
 .button {
     font-weight: 500;
     color: var(--color-inverted);
