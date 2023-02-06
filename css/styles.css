@@ -54,6 +54,10 @@ body {
     color: var(--pressed-state);
 }
 
+.active-link {
+    color: var(--pressed-state);
+}
+
 .header-address {
     font-style: normal;
     text-decoration: none;
@@ -84,6 +88,7 @@ body {
     font-weight: 500;
     color: var(--color-inverted);
     background: var(--color-primary-brand);
+    border : var(--color-primary-brand);
     border-radius: 4px;
     cursor: pointer;
     width: 169px;
